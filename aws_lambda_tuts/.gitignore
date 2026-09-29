@@ -1,0 +1,13 @@
+# Terraform local files
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Generated Lambda deployment package
+python/lambda_function.zip
+__pycache__/
+*.py[cod]

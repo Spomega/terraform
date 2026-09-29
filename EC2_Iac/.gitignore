@@ -1,0 +1,13 @@
+# Terraform local files
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfplan
+tfplan
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Local backend configuration
+backend.hcl
+backend-override.tf

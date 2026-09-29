@@ -1,0 +1,15 @@
+# Terraform local files
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Generated Lambda and layer build artifacts
+.layer_build/
+function.zip
+layer.zip
+__pycache__/
+*.py[cod]

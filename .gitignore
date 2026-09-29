@@ -1,0 +1,25 @@
+# Terraform working directories and local state
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+
+# Local backend configuration can contain bucket or account details
+backend.hcl
+backend-override.tf
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration and generated local files
+.terraformrc
+terraform.rc
+
+# Python caches produced by Lambda source and build steps
+__pycache__/
+*.py[cod]
